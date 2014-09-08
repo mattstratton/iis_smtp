@@ -16,3 +16,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
+
+windows_feature 'Smtpsvc-Service-Update-Name' do
+  action :install
+  all true	
+end

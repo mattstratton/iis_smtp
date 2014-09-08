@@ -19,5 +19,5 @@ platforms:
 suites:
 - name: default
   run_list:
-    - recipe[iis_smpt::default]
+    - recipe[iis_smtp::default]
   attributes:
